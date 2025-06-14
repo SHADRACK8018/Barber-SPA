@@ -1,62 +1,62 @@
-# 💈 Destiny Barbershop & SPA - Hybrid Web Application
+# Destiny Barbershop & SPA
 
 A modern, full-featured hybrid digital solution designed to showcase and manage services offered by a barbershop and spa. This project combines elegant UI design, seamless navigation, and smart integrations such as WhatsApp contact and Google Maps, tailored for both desktop and mobile environments.
 
 ---
 
-## 🌟 Table of Contents
+## Table of Contents
 
-* [Project Overview](#project-overview)
-* [Features](#features)
-* [Tech Stack](#tech-stack)
-* [Installation](#installation)
-* [Project Structure](#project-structure)
-* [Usage](#usage)
-* [Deployment](#deployment)
-* [Screenshots](#screenshots)
-* [Contact](#contact)
-* [License](#license)
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
+- [Contact](#contact)
+- [License](#license)
 
 ---
 
-## 🧾 Project Overview
+## Project Overview
 
 Destiny Barbershop & SPA is a responsive hybrid web application that allows users to:
 
-* Explore services with visual thumbnails and pop-up modals for detailed descriptions.
-* Book appointments (coming soon with backend/API integration).
-* Navigate easily between Home, About, Services, and Contact pages.
-* Connect via WhatsApp or locate the business using an embedded Google Map.
+- Explore services with visual thumbnails and pop-up modals for detailed descriptions.
+- Book appointments (coming soon with backend/API integration).
+- Navigate easily between Home, About, Services, and Contact pages.
+- Connect via WhatsApp or locate the business using an embedded Google Map.
 
 The project is built using **ReactJS** and designed with future hybrid/mobile adaptability in mind using tools like Capacitor or Expo.
 
 ---
 
-## 🧰 Features
+## Features
 
-### 🎨 User Interface
+### User Interface
 
-* Modern dark theme for a sleek and professional appearance
-* Responsive layout that adapts to mobile and desktop
-* Animated scroll effects (AOS) for engaging UX
+- Modern dark theme for a sleek and professional appearance
+- Responsive layout that adapts to mobile and desktop
+- Animated scroll effects (AOS) for engaging UX
 
-### 🧖 Services
+### Services
 
-* Image cards for each service (Beard Trim, Facial, Massage, Hair Coloring, Nail Care, Kids Haircut, Waxing)
-* "Learn More" buttons open modals with descriptions and pricing
+- Image cards for each service (Beard Trim, Facial, Massage, Hair Coloring, Nail Care, Kids Haircut, Waxing)
+- "Learn More" buttons open modals with descriptions and pricing
 
-### 📍 Contact & Location
+### Contact & Location
 
-* Embedded Google Map for directions
-* WhatsApp link for instant messaging
+- Embedded Google Map for directions
+- WhatsApp link for instant messaging
 
-### 🧑‍🤝‍🧑 About Page
+### About Page
 
-* Display team members with names, roles, and images
+- Display team members with names, roles, and images
 
 ---
 
-## 🖥️ Tech Stack
+## Tech Stack
 
 | Category         | Technologies                         |
 | ---------------- | ------------------------------------ |
@@ -68,12 +68,12 @@ The project is built using **ReactJS** and designed with future hybrid/mobile ad
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Prerequisites
 
-* Node.js (v18 or higher)
-* npm or yarn
+- Node.js (v18 or higher)
+- npm or yarn
 
 ### 1. Clone the Repository
 
@@ -102,7 +102,7 @@ The app will run at `http://localhost:5173/` (or as specified in your config).
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── public/
@@ -124,22 +124,21 @@ The app will run at `http://localhost:5173/` (or as specified in your config).
 
 ---
 
-## 🚀 Usage
+## Usage
 
-* Navigate to **Home** to see hero section and a welcome message.
-* Go to **Services** to view the service cards and click on **Learn More** for details.
-* Visit **About Us** to meet the barbers and SPA team.
-* Open **Contact** to view the Google Map and use the WhatsApp chat link.
+- Navigate to **Home** to see hero section and a welcome message.
+- Visit **About Us** to meet the barbers and SPA team.
+- Open **Contact** to view the Google Map and use the WhatsApp chat link.
 
 ---
 
-## 🌍 Deployment
+## Deployment
 
 This project can be deployed easily on platforms like:
 
-* [Vercel](https://vercel.com)
-* [Netlify](https://netlify.com)
-* Firebase Hosting
+- [Vercel](https://vercel.com)
+- [Netlify](https://netlify.com)
+- Firebase Hosting
 
 ### Steps to Deploy on Vercel:
 
@@ -149,34 +148,34 @@ This project can be deployed easily on platforms like:
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### Home Page
 
-![Home Page](./screenshots/homepage.png)
+![Home Page](./src/Assets/Homepage screenshot.png)
 
 ### Service Details Modal
 
-![Service Modal](./screenshots/service-modal.png)
+![Service Modal](./src/Assets/service screenshot.png)
 
 ### Contact Section
 
-![Contact Page](./screenshots/contact.png)
+![Contact Page](./src/Assets/contact screenshot.png)
 
 ---
 
-## 📬 Contact
+## Contact
 
 For questions, contributions, or business inquiries:
 
-* ✉️ Email: [info@destinybarberspa.co.ke](mailto:info@destinybarberspa.co.ke)
-* 📞 Phone: +254 712 345 678
-* 🌐 Website: [www.destinybarberspa.co.ke](http://www.destinybarberspa.co.ke)
-* 📲 WhatsApp: [Click to Chat](https://wa.me/254711371896)
+- Email: [info@destinybarberspa.co.ke](mailto:info@destinybarberspa.co.ke)
+- Phone: +254 712 345 678
+- Website: [www.destinybarberspa.co.ke](http://www.destinybarberspa.co.ke)
+- WhatsApp: [Click to Chat](https://wa.me/254711371896)
 
 ---
 
-## 📄 License
+## License
 
 MIT License. See [LICENSE](./LICENSE) for more details.
 
