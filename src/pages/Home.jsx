@@ -81,7 +81,12 @@ const Home = () => {
               <div
                 key={idx}
                 className="rounded-4 shadow overflow-hidden border border-secondary flex-shrink-0 position-relative"
-                style={{ width: "320px", height: "320px" }}
+                style={{
+                  width: "80vw",
+                  maxWidth: "320px",
+                  height: "80vw",
+                  maxHeight: "320px",
+                }}
               >
                 <img
                   src={src}

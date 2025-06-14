@@ -203,7 +203,11 @@ const ServicesSection = () => {
                     src={process.env.PUBLIC_URL + service.image}
                     alt={service.name}
                     className="card-img-top object-fit-cover rounded-top"
-                    style={{ height: "200px" }}
+                    style={{
+                      height: "auto",
+                      maxHeight: "200px",
+                      width: "100%",
+                    }}
                   />
                   <div className="card-body d-flex flex-column justify-content-between">
                     <div>
