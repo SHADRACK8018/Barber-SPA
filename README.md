@@ -13,7 +13,6 @@ A modern, full-featured hybrid digital solution designed to showcase and manage 
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [Screenshots](#screenshots)
 - [Contact](#contact)
 - [License](#license)
 
@@ -61,7 +60,7 @@ The project is built using **ReactJS** and designed with future hybrid/mobile ad
 | Category         | Technologies                         |
 | ---------------- | ------------------------------------ |
 | Frontend         | ReactJS, React Router DOM            |
-| Styling          | CSS, Bootstrap, AOS, TailwindCSS     |
+| Styling          | CSS, Bootstrap, AOS     |
 | Optional Backend | Node.js / Express or Python Flask    |
 | Deployment       | Vercel, Netlify, Firebase (optional) |
 | Hybrid Ready     | Capacitor / Expo (React Native)      |
@@ -134,33 +133,15 @@ The app will run at `http://localhost:5173/` (or as specified in your config).
 
 ## Deployment
 
-This project can be deployed easily on platforms like:
+This project is deployed on:
 
 - [Vercel](https://vercel.com)
-- [Netlify](https://netlify.com)
-- Firebase Hosting
 
 ### Steps to Deploy on Vercel:
 
 1. Push your code to GitHub.
 2. Go to [vercel.com](https://vercel.com) and import your GitHub repository.
 3. Follow the setup wizard and deploy!
-
----
-
-## Screenshots
-
-### Home Page
-
-![Home Page](./src/Assets/Homepage screenshot.png)
-
-### Service Details Modal
-
-![Service Modal](./src/Assets/service screenshot.png)
-
-### Contact Section
-
-![Contact Page](./src/Assets/contact screenshot.png)
 
 ---
 
