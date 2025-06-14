@@ -52,7 +52,7 @@ const About = () => {
               Destiny Barber & <span className="text-white">SPA</span>
             </h2>
             <p className="lead">
-              Since 2010, <strong>Destiny Barber & SPA</strong> has elevated
+              Since 2022, <strong>Destiny Barber & SPA</strong> has elevated
               grooming experiences. We blend modern finesse with timeless
               techniques to create a sanctuary of self-care and luxury.
             </p>
