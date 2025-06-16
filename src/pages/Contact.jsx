@@ -45,27 +45,48 @@ const Contact = () => {
 
             <form className="needs-validation" noValidate>
               <div className="mb-4">
+                <label
+                  htmlFor="fullName"
+                  className="form-label visually-hidden"
+                >
+                  Full Name
+                </label>
                 <input
+                  id="fullName"
                   type="text"
                   className="form-control form-control-lg rounded-pill px-4 shadow-sm bg-secondary text-white border-0"
                   placeholder="Full Name"
                   required
+                  aria-required="true"
                 />
               </div>
               <div className="mb-4">
+                <label
+                  htmlFor="emailAddress"
+                  className="form-label visually-hidden"
+                >
+                  Email Address
+                </label>
                 <input
+                  id="emailAddress"
                   type="email"
                   className="form-control form-control-lg rounded-pill px-4 shadow-sm bg-secondary text-white border-0"
                   placeholder="Email Address"
                   required
+                  aria-required="true"
                 />
               </div>
               <div className="mb-4">
+                <label htmlFor="message" className="form-label visually-hidden">
+                  Your Message
+                </label>
                 <textarea
+                  id="message"
                   className="form-control form-control-lg rounded-4 px-4 py-3 shadow-sm bg-secondary text-white border-0"
                   placeholder="Your Message"
                   rows="5"
                   required
+                  aria-required="true"
                 ></textarea>
               </div>
               <button

@@ -91,7 +91,9 @@ const Home = () => {
               >
                 <img
                   src={src}
-                  alt={`Style ${idx + 1}`}
+                  alt={`Gallery style number ${
+                    idx + 1
+                  } at Destiny Barber & SPA`}
                   className="w-100 h-100 object-fit-cover"
                   style={{ filter: "brightness(85%)" }}
                 />
