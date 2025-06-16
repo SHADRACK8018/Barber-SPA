@@ -42,6 +42,7 @@ const About = () => {
                   e.target.src =
                     "https://placehold.co/800x450/111827/ffffff?text=Image+Missing";
                 }}
+                style={{ maxHeight: "100%", width: "100%" }}
               />
             </div>
           </div>

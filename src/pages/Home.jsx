@@ -54,6 +54,7 @@ const Home = () => {
           <a
             href="#services"
             className="btn btn-warning btn-lg rounded-pill px-5 shadow-sm"
+            style={{ fontSize: "1rem" }}
           >
             Explore Services
           </a>
