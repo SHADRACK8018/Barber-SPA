@@ -83,10 +83,10 @@ const Home = () => {
                 key={idx}
                 className="rounded-4 shadow overflow-hidden border border-secondary flex-shrink-0 position-relative"
                 style={{
-                  width: "1024px",
-                  maxWidth: "1024px",
-                  height: "768px",
-                  maxHeight: "768px",
+                  width: "80vw",
+                  maxWidth: "320px",
+                  height: "80vw",
+                  maxHeight: "320px",
                 }}
               >
                 <img

@@ -19,8 +19,9 @@ const Contact = () => {
               alt="Contact Destiny Barber & SPA"
               className="img-fluid rounded-5 shadow-lg border border-secondary"
               style={{
-                height: "768px",
-                width: "1024px",
+                height: "auto",
+                maxHeight: "650px",
+                width: "100%",
                 objectFit: "cover",
                 transition: "transform 0.4s ease",
               }}
